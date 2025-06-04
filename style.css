@@ -105,6 +105,12 @@ body {
         width: 40%;
     }
 
+    .email,
+    .github,
+    .linkedin {
+        gap: 28px;
+    }
+
     .email h2,
     .github h2,
     .linkedin h2 {
@@ -117,10 +123,10 @@ body {
     .github p,
     .linkedin p {
         font-size: 16px;
-        overflow: visible;
     }
 
     .colon {
         font-size: 25px;
+        margin: 0 -15px 0 -15px;
     }
 }
