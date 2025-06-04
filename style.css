@@ -86,6 +86,10 @@ body {
     margin: 0 -30px 0 0;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
 @media (max-width: 700px) {
     .main-container {
         padding: 30px 30px;
