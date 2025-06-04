@@ -117,6 +117,7 @@ body {
     .github p,
     .linkedin p {
         font-size: 16px;
+        overflow: visible;
     }
 
     .colon {
