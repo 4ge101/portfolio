@@ -9,14 +9,20 @@
 :root {
     --dark-color: black;
     --white-color: white;
+    --text-color: #082567;
 }
 
 body {
     font-family: "Nunito", sans-serif;
 }
 
+.main-container {
+    padding: 30px 60px;
+}
+
 .about-title h1 {
     font-size: 40px;
+    color: var(--text-color);
 }
 
 .about-title h2 {
@@ -29,6 +35,7 @@ body {
     gap: 10px;
     font-size: 25px;
     padding: 5px 0 0;
+    color: var(--text-color);
 }
 
 .about p {
@@ -36,6 +43,10 @@ body {
     font-weight: 500;
     letter-spacing: 3px;
     padding: 10px 0;
+}
+
+.about p span {
+    color: var(--text-color);
 }
 
 .inforamtion-title h2 {
@@ -61,6 +72,7 @@ body {
 .github h2,
 .linkedin h2 {
     font-size: 30px;
+    color: var(--text-color);
 }
 
 .email p,
@@ -74,6 +86,36 @@ body {
     margin: 0 -30px 0 0;
 }
 
-/* @media (max-width: 700px) {
+@media (max-width: 700px) {
+    .main-container {
+        padding: 30px 30px;
+    }
 
-} */
+    .about p {
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: normal;
+    }
+
+    .dash-line {
+        width: 40%;
+    }
+
+    .email h2,
+    .github h2,
+    .linkedin h2 {
+        font-size: 25px;
+        overflow: visible;
+        font-weight: 600;
+    }
+
+    .email p,
+    .github p,
+    .linkedin p {
+        font-size: 16px;
+    }
+
+    .colon {
+        font-size: 25px;
+    }
+}
