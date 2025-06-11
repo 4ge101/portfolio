@@ -18,6 +18,11 @@ body {
 
 .main-container {
     padding: 30px 60px;
+    border: 2px solid var(--dark-color);
+    margin: 20px 30px;
+    border-radius: 4px;
+    box-shadow: 20px 20px 1px 0px var(--dark-color);
+    height: 80vh;
 }
 
 .about-title h1 {
@@ -93,6 +98,7 @@ body {
 @media (max-width: 700px) {
     .main-container {
         padding: 30px 30px;
+        height: auto;
     }
 
     .about p {
