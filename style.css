@@ -98,7 +98,7 @@ body {
 @media (max-width: 700px) {
     .main-container {
         padding: 30px 30px;
-        height: auto;
+        height: 78vh;
     }
 
     .about p {
